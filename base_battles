@@ -4,4 +4,4 @@ local Category = Main:CreateCategory("Base Battles")
 
 Category:CreateTextLabel("youtube.com/@rbxscriptshub")
 Category:CreateTextLabel("discord.io/echoscripts")
-Category:CreateButton("Load Script",function() loadstring(game:HttpGet(("https://raw.githubusercontent.com/skatbr/Roblox-Releases/main/Base%20Battles.lua"),true))()
+Category:CreateButton("Load Script",function() loadstring(game:HttpGet(("https://raw.githubusercontent.com/skatbr/Roblox-Releases/main/Base%20Battles.lua"),true))() end)
