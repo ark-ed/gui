@@ -1,0 +1,7 @@
+local Main = loadstring(game:HttpGet("https://raw.githubusercontent.com/ark-ed/roblox-scripts/main/gui"))():Init(config,game.CoreGui)
+
+local Category = Main:CreateCategory("Base Battles")
+
+Category:CreateTextLabel("youtube.com/@rbxscriptshub")
+Category:CreateTextLabel("discord.io/echoscripts")
+Category:CreateButton("Load Script",function() loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI'))() end)
